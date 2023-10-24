@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chat without saving number</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+        scroll-behavior: auto;
+    }
+    .input{
+        width: 90%;
+        height: 50px;
+        font-size: 40px;
+        padding: 8px;
+        border: none;
+        border-bottom: 3px solid blue;
+        
+    }
+    .input:focus{
+        outline: none;
+    }
+    .btn{
+        width: 90%;
+        background: blue;
+        font-size: 35px;
+        border-radius: 16px;
+       
+    }
+</style>
+<body>
+    <div align="center">
+    <input type="tel" class="input" focus>
+    <br><br>
+    <input type="button" value="Chat" class="btn" onclick="wb1()">
+    </div>
+</body>
+<script>
+    function wb1() {
+        let number = document.querySelector('.input');
+        window.open('https://api.whatsapp.com/send/?phone=91' + number.value + '&text&type=phone_number&app_absent=0');
+    }
+</script>
+</html>
