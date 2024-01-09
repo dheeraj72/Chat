@@ -1,1 +1,21 @@
-{"pullRefresh":false,"navigationBarTitleText":"","navigationStyle":"custom","navigationBarBackgroundColor":"#FF723F","navigationBarTextStyle":"black","navigationBarHomeAction":"back"}
+{
+  "name": "Creation with dheeraj",
+  "short_name": "Creation with dheeraj",
+  "description": "Welcome to Creation with Dheeraj - your ultimate destination for everything related to coding! Dive into a world of programming, development tips, and technological insights curated by Dheeraj. Unleash your coding potential with a variety of articles, tutorials, and expert guidance. Stay updated with the latest trends, best practices, and innovative solutions in the ever-evolving realm of coding. Join a community passionate about coding excellence and embark on your journey to mastering the art of programming through Creation with Dheeraj.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0000ff",
+  "icons": [
+    {
+      "src": "CD.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "CD.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
